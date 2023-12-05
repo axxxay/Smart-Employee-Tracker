@@ -49,7 +49,7 @@ const Signup = ({setAuthType}) => {
         }
         try {
             const body = {name: fullname,username, password, email, mobile, securityQues, securityAns, admin: 0, photo: 'user.png'}
-            const url = 'http://localhost:5000/register/'
+            const url = 'https://employee-tracker-backend.onrender.com/register/'
             const options = {
                 method: 'POST',
                 headers: {'Content-Type': 'application/json'},

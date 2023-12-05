@@ -28,7 +28,7 @@ const AdminDashBoard = () => {
     useEffect(() => {
 
         const getHistoryList = async () => {
-            const url = `http://localhost:5000/history/all/`
+            const url = `https://employee-tracker-backend.onrender.com/history/all/`
             const options = {
                 method: 'GET',
                 headers: {
@@ -52,7 +52,7 @@ const AdminDashBoard = () => {
             return
         }
         setToggleHistoryTracker(true)
-        const url = `http://localhost:5000/tracker/${username}/`
+        const url = `https://employee-tracker-backend.onrender.com/tracker/${username}/`
         const options = {
             method: 'GET',
             headers: {

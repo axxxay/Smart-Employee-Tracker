@@ -11,7 +11,7 @@ const SignUpRequests = (props) => {
 
     useEffect(() => {
         const getSignUpList = async () => {
-            const url = `http://localhost:5000/request/register/all/`
+            const url = `https://employee-tracker-backend.onrender.com/request/register/all/`
             const options = {
                 method: 'GET',
                 headers: {
@@ -30,7 +30,7 @@ const SignUpRequests = (props) => {
     }, [])
 
     const acceptSignUp = async (username) => {
-        const url = `http://localhost:5000/request/register/accept/${username}`
+        const url = `https://employee-tracker-backend.onrender.com/request/register/accept/${username}`
         const options = {
             method: 'POST',
             headers: {
@@ -48,7 +48,7 @@ const SignUpRequests = (props) => {
     }
 
     const rejectSignUp = async (username) => {
-        const url = `http://localhost:5000/request/register/reject/${username}`
+        const url = `https://employee-tracker-backend.onrender.com/request/register/reject/${username}`
         console.log(url)
         const options = {
             method: 'DELETE',

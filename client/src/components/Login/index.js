@@ -31,7 +31,7 @@ const Login = ({setAuthType}) => {
             username,
             password
         }
-        const url = 'http://localhost:5000/login/'
+        const url = 'https://employee-tracker-backend.onrender.com/login/'
         const options = {
             method: 'POST',
             headers: {

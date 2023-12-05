@@ -25,7 +25,7 @@ const UserDashBoard = () => {
             console.log(time12)
             console.log(parsedDate)
 
-            const url = `http://localhost:5000/history/login/`
+            const url = `https://employee-tracker-backend.onrender.com/history/login/`
             const options = {
                 method: 'POST',
                 headers: {
@@ -111,7 +111,7 @@ const UserDashBoard = () => {
         const time12 = format(today, 'hh:mm:ss a');
         const parsedDate = format(today, 'yyyy-MMM-dd-EEEE');
 
-        const url = `http://localhost:5000/tracker/`
+        const url = `https://employee-tracker-backend.onrender.com/tracker/`
         const body = {
             username: username,
             date: parsedDate,
@@ -177,7 +177,7 @@ const UserDashBoard = () => {
         const username = Cookies.get('username')
         const today = new Date();
         const time12 = format(today, 'hh:mm:ss a');
-        const url = `http://localhost:5000/history/logout/`
+        const url = `https://employee-tracker-backend.onrender.com/history/logout/`
         const options = {
             method: 'PUT',
             headers: {

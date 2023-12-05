@@ -33,7 +33,7 @@ const ForgotPassword = ({setAuthType}) => {
         }
         try {
             const body = {username, securityQues, securityAns, newPassword: password}
-            const url = 'http://localhost:5000/forgot/'
+            const url = 'https://employee-tracker-backend.onrender.com/forgot/'
             const options = {
                 method: 'POST',
                 headers: {'Content-Type': 'application/json'},
