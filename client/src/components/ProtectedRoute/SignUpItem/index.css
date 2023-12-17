@@ -16,6 +16,6 @@
 @media screen and (max-width: 768px) {
     .admin-dashboard-button-sign {
         font-size: 10px;
-        padding: 3px 8px;
+        padding: 3px 8px; 
     }
 }
