@@ -104,6 +104,15 @@
         padding-top: 13vh;
     }
 
+    .admin-dashboard-item-head {
+        padding: 15px;
+    }
+
+    .admin-dashboard-item-p {
+        font-size: 12px;
+        width: 24%;
+    }
+
     .admin-dashboard-heading {
         font-size: 20px;
         margin-bottom: 20px;

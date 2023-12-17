@@ -136,4 +136,14 @@
         font-size: 16px;
         margin-bottom: 10px;
     }
+
+    .admin-dashboard-item-s {
+        font-size: 11px;
+        width: 19%;
+    }
+
+    .admin-dashboard-item-a {
+        font-size: 11px;
+        width: 24%;
+    }
 }

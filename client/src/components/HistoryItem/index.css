@@ -14,3 +14,11 @@
     font-weight: 500;
     width: 25%;
 }
+
+@media screen and (max-width: 768px) {
+    .admin-dashboard-item {
+        font-size: 11px;
+        width: 23%;
+        flex-wrap: wrap;
+    }
+}
